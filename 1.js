@@ -3,6 +3,6 @@ function longest_string(array) {
   array.map(v => max = Math.max(max, v.length));
   result = array.filter(v => v.length == max);
   return result;
-}
+};
 arr = ["BINH", "HUNG", "PHUOC", "CAO", "KHANH"]
 console.log(longest_string(arr))
